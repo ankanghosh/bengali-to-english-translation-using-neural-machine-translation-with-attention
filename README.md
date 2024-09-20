@@ -2,7 +2,7 @@
 Bengali-to-English text translation using Neural Machine Translation (NMT) with attention.
 
 # About the project
-Bengali-to-English text translation using Neural Machine Translation with Attention.
+Bengali-to-English text translation using Neural Machine Translation with attention.
 This is a Google Colab notebook for implementing Bengali-to-English text translation using NMT with attention. The work uses a language dataset provided by [Anki](http://www.manythings.org/anki/). The data is first cleaned, normalized, and preprocessed. An encoder with a Bidirectional Recurrent Neural Network (RNN), a decoder with a unidirectional RNN, with both of the RNNs implemented using Gated Recurrent Units (GRUs), and cross-attention is used to implement the model for the Bengali-to-English text translation. Training is performed using a TPU or Tensor Processing Unit. With an accuracy of about 65%, the performance of the model can be considered average. However, this is a quick and dirty implementation and there is definitely a decent scope for improvement.
 
 It is important to note that this work is adapted directly from TensorFlow's tutorial on ["Neural machine translation with attention"](https://www.tensorflow.org/text/tutorials/nmt_with_attention) that shows how to use sequence-to-sequence or seq2seq models for Spanish-to-English text translation. The content (text, images, and code) from the original TensorFlow tutorial has been reused in most parts. The Colab notebook for this project specifies all of the modifications made in this Bengali-to-English text translation tutorial, as compared to TensorFlow's original Spanish-to-English text translation tutorial.

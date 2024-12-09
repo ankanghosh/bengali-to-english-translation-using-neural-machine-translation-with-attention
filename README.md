@@ -17,7 +17,7 @@ Anyone can use the project to get started with the basics of text translation us
 Anyone interested in getting started with Machine Learning, Deep Learning, or Natural Language Processing, specifically, text translation between language pairs using TensorFlow, RNNs / GRUs, and attention, can clone or download the project to get started.
 
 # References
-I have leveraged ChatGPT for guidance in terms of some concepts and to clarify doubts, both theoretical and code-based. However, I did not use ChatGPT to generate code. The most important points of reference for the project are as follows.
+The most important points of reference for the project are as follows.
 TensorFlow tutorial using NMT with attention for Spanish-to-English text translation. Link [here](https://www.tensorflow.org/text/tutorials/nmt_with_attention).
 
 # Additional Notes
